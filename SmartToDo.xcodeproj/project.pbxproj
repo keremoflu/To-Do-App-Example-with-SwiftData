@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE98369F2B374CB900B1E3DA /* SmartToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE98369E2B374CB900B1E3DA /* SmartToDoApp.swift */; };
+		CE9836A12B374CB900B1E3DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9836A02B374CB900B1E3DA /* ContentView.swift */; };
+		CE9836A32B374CBA00B1E3DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9836A22B374CBA00B1E3DA /* Assets.xcassets */; };
+		CE9836A62B374CBA00B1E3DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9836A52B374CBA00B1E3DA /* Preview Assets.xcassets */; };
+		CE9836B02B374CBA00B1E3DA /* SmartToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9836AF2B374CBA00B1E3DA /* SmartToDoTests.swift */; };
+		CE9836BA2B374CBA00B1E3DA /* SmartToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9836B92B374CBA00B1E3DA /* SmartToDoUITests.swift */; };
+		CE9836BC2B374CBA00B1E3DA /* SmartToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9836BB2B374CBA00B1E3DA /* SmartToDoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE9836AC2B374CBA00B1E3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9836932B374CB900B1E3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE98369A2B374CB900B1E3DA;
+			remoteInfo = SmartToDo;
+		};
+		CE9836B62B374CBA00B1E3DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE9836932B374CB900B1E3DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE98369A2B374CB900B1E3DA;
+			remoteInfo = SmartToDo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE98369B2B374CB900B1E3DA /* SmartToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE98369E2B374CB900B1E3DA /* SmartToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartToDoApp.swift; sourceTree = "<group>"; };
+		CE9836A02B374CB900B1E3DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE9836A22B374CBA00B1E3DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9836A52B374CBA00B1E3DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE9836AB2B374CBA00B1E3DA /* SmartToDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartToDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9836AF2B374CBA00B1E3DA /* SmartToDoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartToDoTests.swift; sourceTree = "<group>"; };
+		CE9836B52B374CBA00B1E3DA /* SmartToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9836B92B374CBA00B1E3DA /* SmartToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartToDoUITests.swift; sourceTree = "<group>"; };
+		CE9836BB2B374CBA00B1E3DA /* SmartToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9836982B374CB900B1E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836A82B374CBA00B1E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836B22B374CBA00B1E3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9836922B374CB900B1E3DA = {
+			isa = PBXGroup;
+			children = (
+				CE98369D2B374CB900B1E3DA /* SmartToDo */,
+				CE9836AE2B374CBA00B1E3DA /* SmartToDoTests */,
+				CE9836B82B374CBA00B1E3DA /* SmartToDoUITests */,
+				CE98369C2B374CB900B1E3DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE98369C2B374CB900B1E3DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE98369B2B374CB900B1E3DA /* SmartToDo.app */,
+				CE9836AB2B374CBA00B1E3DA /* SmartToDoTests.xctest */,
+				CE9836B52B374CBA00B1E3DA /* SmartToDoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE98369D2B374CB900B1E3DA /* SmartToDo */ = {
+			isa = PBXGroup;
+			children = (
+				CE98369E2B374CB900B1E3DA /* SmartToDoApp.swift */,
+				CE9836A02B374CB900B1E3DA /* ContentView.swift */,
+				CE9836A22B374CBA00B1E3DA /* Assets.xcassets */,
+				CE9836A42B374CBA00B1E3DA /* Preview Content */,
+			);
+			path = SmartToDo;
+			sourceTree = "<group>";
+		};
+		CE9836A42B374CBA00B1E3DA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE9836A52B374CBA00B1E3DA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE9836AE2B374CBA00B1E3DA /* SmartToDoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9836AF2B374CBA00B1E3DA /* SmartToDoTests.swift */,
+			);
+			path = SmartToDoTests;
+			sourceTree = "<group>";
+		};
+		CE9836B82B374CBA00B1E3DA /* SmartToDoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9836B92B374CBA00B1E3DA /* SmartToDoUITests.swift */,
+				CE9836BB2B374CBA00B1E3DA /* SmartToDoUITestsLaunchTests.swift */,
+			);
+			path = SmartToDoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE98369A2B374CB900B1E3DA /* SmartToDo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9836BF2B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDo" */;
+			buildPhases = (
+				CE9836972B374CB900B1E3DA /* Sources */,
+				CE9836982B374CB900B1E3DA /* Frameworks */,
+				CE9836992B374CB900B1E3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartToDo;
+			productName = SmartToDo;
+			productReference = CE98369B2B374CB900B1E3DA /* SmartToDo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE9836AA2B374CBA00B1E3DA /* SmartToDoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9836C22B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDoTests" */;
+			buildPhases = (
+				CE9836A72B374CBA00B1E3DA /* Sources */,
+				CE9836A82B374CBA00B1E3DA /* Frameworks */,
+				CE9836A92B374CBA00B1E3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9836AD2B374CBA00B1E3DA /* PBXTargetDependency */,
+			);
+			name = SmartToDoTests;
+			productName = SmartToDoTests;
+			productReference = CE9836AB2B374CBA00B1E3DA /* SmartToDoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9836B42B374CBA00B1E3DA /* SmartToDoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9836C52B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDoUITests" */;
+			buildPhases = (
+				CE9836B12B374CBA00B1E3DA /* Sources */,
+				CE9836B22B374CBA00B1E3DA /* Frameworks */,
+				CE9836B32B374CBA00B1E3DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9836B72B374CBA00B1E3DA /* PBXTargetDependency */,
+			);
+			name = SmartToDoUITests;
+			productName = SmartToDoUITests;
+			productReference = CE9836B52B374CBA00B1E3DA /* SmartToDoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9836932B374CB900B1E3DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE98369A2B374CB900B1E3DA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CE9836AA2B374CBA00B1E3DA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE98369A2B374CB900B1E3DA;
+					};
+					CE9836B42B374CBA00B1E3DA = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CE98369A2B374CB900B1E3DA;
+					};
+				};
+			};
+			buildConfigurationList = CE9836962B374CB900B1E3DA /* Build configuration list for PBXProject "SmartToDo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9836922B374CB900B1E3DA;
+			productRefGroup = CE98369C2B374CB900B1E3DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE98369A2B374CB900B1E3DA /* SmartToDo */,
+				CE9836AA2B374CBA00B1E3DA /* SmartToDoTests */,
+				CE9836B42B374CBA00B1E3DA /* SmartToDoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9836992B374CB900B1E3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9836A62B374CBA00B1E3DA /* Preview Assets.xcassets in Resources */,
+				CE9836A32B374CBA00B1E3DA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836A92B374CBA00B1E3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836B32B374CBA00B1E3DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9836972B374CB900B1E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9836A12B374CB900B1E3DA /* ContentView.swift in Sources */,
+				CE98369F2B374CB900B1E3DA /* SmartToDoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836A72B374CBA00B1E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9836B02B374CBA00B1E3DA /* SmartToDoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9836B12B374CBA00B1E3DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9836BC2B374CBA00B1E3DA /* SmartToDoUITestsLaunchTests.swift in Sources */,
+				CE9836BA2B374CBA00B1E3DA /* SmartToDoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9836AD2B374CBA00B1E3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE98369A2B374CB900B1E3DA /* SmartToDo */;
+			targetProxy = CE9836AC2B374CBA00B1E3DA /* PBXContainerItemProxy */;
+		};
+		CE9836B72B374CBA00B1E3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE98369A2B374CB900B1E3DA /* SmartToDo */;
+			targetProxy = CE9836B62B374CBA00B1E3DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE9836BD2B374CBA00B1E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9836BE2B374CBA00B1E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9836C02B374CBA00B1E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9836C12B374CBA00B1E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartToDo/Preview Content\"";
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE9836C32B374CBA00B1E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartToDo";
+			};
+			name = Debug;
+		};
+		CE9836C42B374CBA00B1E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartToDo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartToDo";
+			};
+			name = Release;
+		};
+		CE9836C62B374CBA00B1E3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartToDo;
+			};
+			name = Debug;
+		};
+		CE9836C72B374CBA00B1E3DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BLD2PJU7J8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = deneyim.SmartToDoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartToDo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9836962B374CB900B1E3DA /* Build configuration list for PBXProject "SmartToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9836BD2B374CBA00B1E3DA /* Debug */,
+				CE9836BE2B374CBA00B1E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9836BF2B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9836C02B374CBA00B1E3DA /* Debug */,
+				CE9836C12B374CBA00B1E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9836C22B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9836C32B374CBA00B1E3DA /* Debug */,
+				CE9836C42B374CBA00B1E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9836C52B374CBA00B1E3DA /* Build configuration list for PBXNativeTarget "SmartToDoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9836C62B374CBA00B1E3DA /* Debug */,
+				CE9836C72B374CBA00B1E3DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9836932B374CB900B1E3DA /* Project object */;
+}
